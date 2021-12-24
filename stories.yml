@@ -1,0 +1,1770 @@
+version: "2.0"
+
+stories:
+
+- story: query a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_1
+  - action: utter_response_1
+
+- story: query b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_2
+  - action: utter_response_2
+
+- story:  query c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_2
+  - action: utter_response_2
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: query d
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_1
+  - action: utter_response_1
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_3
+  - action: utter_response_3
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+
+
+- story: query f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_4
+  - action: utter_response_4
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+
+
+- story: query g
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_5
+  - action: utter_response_5
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+
+
+- story: query h
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_6
+  - action: utter_response_6
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: query i
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_7
+  - action: utter_response_7
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+
+
+
+- story: query j
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_8
+  - action: utter_response_8
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: query k
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_9
+  - action: utter_response_9
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query l
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_10
+  - action: utter_response_10
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query m
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_11
+  - action: utter_response_11
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query n
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_12
+  - action: utter_response_12
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query o
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_13
+  - action: utter_response_13
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query p
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_14
+  - action: utter_response_14
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query q
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_15
+  - action: utter_response_15
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query r
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_16
+  - action: utter_response_16
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query s
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_17
+  - action: utter_response_17
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query t
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_18
+  - action: utter_response_18
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query u
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_19
+  - action: utter_response_19
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query v
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_20
+  - action: utter_response_20
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query x
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_21
+  - action: utter_response_21
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query y
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_22
+  - action: utter_response_22
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query z
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_23
+  - action: utter_response_23
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query aa
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_24
+  - action: utter_response_24
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ab
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_25
+  - action: utter_response_25
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ac
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a26
+  - action: utter_response_a26
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ad
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a27
+  - action: utter_response_a27
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ae
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a28
+  - action: utter_response_a28
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query af
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a29
+  - action: utter_response_a29
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ag
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a30
+  - action: utter_response_a30
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ah
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a31
+  - action: utter_response_a31
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ai
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a32
+  - action: utter_response_a32
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query aj
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a33
+  - action: utter_response_a33
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ak
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a34
+  - action: utter_response_a34
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query al
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a35
+  - action: utter_response_a35
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query am
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a36
+  - action: utter_response_a36
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query an
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a37
+  - action: utter_response_a37
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ao
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a38
+  - action: utter_response_a38
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ap
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a39
+  - action: utter_response_a39
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query aq
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a40
+  - action: utter_response_a40
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query ar
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a41
+  - action: utter_response_a41
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query as
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a42
+  - action: utter_response_a42
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query at
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a43
+  - action: utter_response_a43
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: query au
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a44
+  - action: utter_response_a44
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query av
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_a45
+  - action: utter_response_a45
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: unclear
+  steps:
+  - action: utter_unclear
+
+- story: greet
+  steps:
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - action: utter_goodbye
+
+- story: path 31
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_31
+  - action: utter_response_31
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 32
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_32
+  - action: utter_response_32
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 33
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_33
+  - action: utter_response_33
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 34
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_34
+  - action: utter_response_34
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 35
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_35
+  - action: utter_response_35
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 36
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_36
+  - action: utter_response_36
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 37
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_37
+  - action: utter_response_37
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 38
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_38
+  - action: utter_response_38
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 39
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_39
+  - action: utter_response_39
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 40
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_40
+  - action: utter_response_40
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 41
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_41
+  - action: utter_response_41
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 42
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_42
+  - action: utter_response_42
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 43
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_43
+  - action: utter_response_43
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 44
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_44
+  - action: utter_response_44
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 45
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_45
+  - action: utter_response_45
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 46
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_46
+  - action: utter_response_46
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 47
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_47
+  - action: utter_response_47
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 48
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_48
+  - action: utter_response_48
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 49
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_49
+  - action: utter_response_49
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 50
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_50
+  - action: utter_response_50
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 51
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_51
+  - action: utter_response_51
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 52
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_52
+  - action: utter_response_52
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 53
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_53
+  - action: utter_response_53
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 54
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_54
+  - action: utter_response_54
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 55
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_55
+  - action: utter_response_55
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 56
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_56
+  - action: utter_response_56
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 57
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_57
+  - action: utter_response_57
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 58
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_58
+  - action: utter_response_58
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path 59
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_59
+  - action: utter_response_59
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+#- story: path 60
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: query_60
+#  - action: utter_response_60
+#  - action: utter_did_that_help
+#  - intent: affirm
+#  - action: utter_glad
+#  - intent: deny
+#  - action: utter_sorry
+#  - action: utter_goodbye
+
+
+
+
+
+
+
+- story: path b 21
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b21
+  - action: utter_response_b21
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 22
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b22
+  - action: utter_response_b22
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 23
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b23
+  - action: utter_response_b23
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 24
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b24
+  - action: utter_response_b24
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 25
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b25
+  - action: utter_response_b25
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 26
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b26
+  - action: utter_response_b26
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+
+- story: path b 27
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b27
+  - action: utter_response_b27
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 28
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b28
+  - action: utter_response_b28
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 29
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b29
+  - action: utter_response_b29
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 30
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b30
+  - action: utter_response_b30
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 31
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b31
+  - action: utter_response_b31
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 32
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b32
+  - action: utter_response_b32
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 33
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b33
+  - action: utter_response_b33
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 34
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b34
+  - action: utter_response_b34
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 35
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b35
+  - action: utter_response_b35
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 36
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b36
+  - action: utter_response_b36
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 37
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b37
+  - action: utter_response_b37
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 38
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b38
+  - action: utter_response_b38
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 39
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b39
+  - action: utter_response_b39
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: path b 40
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_b40
+  - action: utter_response_b40
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_one
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_61
+  - action: utter_response_61
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_two
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_62
+  - action: utter_response_62
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_three
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_63
+  - action: utter_response_63
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_four
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_64
+  - action: utter_response_64
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_five
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_65
+  - action: utter_response_65
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_six
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_66
+  - action: utter_response_66
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_seven
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_67
+  - action: utter_response_67
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_eight
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_68
+  - action: utter_response_68
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query sixty_nine
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_69
+  - action: utter_response_69
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_70
+  - action: utter_response_70
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_one
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_71
+  - action: utter_response_71
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_two
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_72
+  - action: utter_response_72
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_three
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_73
+  - action: utter_response_73
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_four
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_74
+  - action: utter_response_74
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_five
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_75
+  - action: utter_response_75
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_six
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_76
+  - action: utter_response_76
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_seven
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_77
+  - action: utter_response_77
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_eight
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_78
+  - action: utter_response_78
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query seventy_nine
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_79
+  - action: utter_response_79
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_80
+  - action: utter_response_80
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_one
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_81
+  - action: utter_response_81
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_two
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_82
+  - action: utter_response_82
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_three
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_83
+  - action: utter_response_83
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_four
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_84
+  - action: utter_response_84
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_five
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_85
+  - action: utter_response_85
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_six
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_86
+  - action: utter_response_86
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_seven
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_87
+  - action: utter_response_87
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query eighty_eight
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_88
+  - action: utter_response_88
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_one_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_41b
+  - action: utter_response_41b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_two_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_42b
+  - action: utter_response_42b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_three_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_43b
+  - action: utter_response_43b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_four_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_44b
+  - action: utter_response_44b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_five_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_45b
+  - action: utter_response_45b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_six_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_46b
+  - action: utter_response_46b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_seven_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_47b
+  - action: utter_response_47b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_eight_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_48b
+  - action: utter_response_48b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query forty_nine_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_49b
+  - action: utter_response_49b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query fifty_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_50b
+  - action: utter_response_50b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query fifty_one_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_51b
+  - action: utter_response_51b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query fifty_two_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_52b
+  - action: utter_response_52b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query fifty_three_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_53b
+  - action: utter_response_53b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query fifty_four_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_54b
+  - action: utter_response_54b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
+
+- story: query fifty_five_b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_55b
+  - action: utter_response_55b
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_glad
+  - intent: deny
+  - action: utter_sorry
+  - action: utter_goodbye
