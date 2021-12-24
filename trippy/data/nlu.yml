@@ -1,0 +1,772 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: out_of_scope
+  examples: |
+    - What is 2 + 2
+    - Who is US President
+    - I want to order food
+
+
+- intent: query_1
+  examples: |
+    - What is the total amount of leave I can avail?
+    - What is the total amount of leave I can get?
+    - How much is the total amount of leave I can avail?
+    - How much is the total amount of leave I can get?
+
+- intent: query_2
+  examples: |
+    - What are leave other than annual and casual leave?
+    - What are leave except annual and casual leave?
+
+- intent: query_3
+  examples: |
+    - Who is the authorized to sanction leave?
+    - Who can sanction leave?
+
+- intent: query_4
+  examples: |
+    - When does my leave commence and ends?
+    - When does my start and ends?
+
+- intent: query_5
+  examples: |
+    - How much leave is authorized to me on retirement or discharge?
+    - How much leave is authorized to me on retirement?
+    - How much leave is authorized to me on discharge?
+
+- intent: query_6
+  examples: |
+    - What is the procedure of leave extension?
+    - How to extend leave?
+
+- intent: query_7
+  examples: |
+    - Can I avail leave on child birth and what is the authorization?
+    - Can I avail leave on child birth?
+
+- intent: query_8
+  examples: |
+    - Is extension of leave allowed?
+    - Can we extend leave?
+
+- intent: query_9
+  examples: |
+    - What happens if I overstay on leave?
+    - What happens if I extend my leave?
+
+- intent: query_10
+  examples: |
+    - Can I avail/take accumulated leave with annual leave?
+    - Can I take accumulated leave with annual leave?
+    - Can I avail accumulated leave with annual leave?
+
+
+- intent: query_11
+  examples: |
+    - What is Paternity Leave?
+    - What is PL?
+
+- intent: query_12
+  examples: |
+    - What is LRA?
+    - What does LRA stand for?
+
+- intent: query_13
+  examples: |
+    - What is CL?
+    - What is Casual Leave?
+
+- intent: query_14
+  examples: |
+    - What is Annual Leave?
+    - What is AL?
+
+- intent: query_15
+  examples: |
+    - What is SL?
+    - What is Sick Leave?
+
+- intent: query_16
+  examples: |
+    - How to purchase car through CSD?
+    - How to buy car through CSD?
+
+- intent: query_17
+  examples: |
+    - How many concessional voucher i can take?
+    - How many times can i take concessional voucher?
+
+- intent: query_18
+  examples: |
+    - What is disability pension?
+    - What is meant by disability pension?
+
+#- intent: query_19
+#  examples: |
+#    - What is TR-177A?
+#    - What does TR-177A stand for?
+
+#- intent: query_20
+#  examples: |
+#    - What is TR 180?
+#    - What does TR-180 stand for?
+
+
+#- intent: query_21
+#  examples: |
+#    - What is TR 181?
+#    - What does TR-181 stand for?
+
+- intent: query_22
+  examples: |
+    - what is your name?
+    - whats your name?
+
+- intent: query_23
+  examples: |
+    - What is OSL?
+    - What does OSL mean?
+
+- intent: query_24
+  examples: |
+    - What is 70-PT?
+    - What does 70-PT stand for?
+
+#- intent: query_25
+#  examples: |
+#    - What is TR 67?
+#    - What does TR-67 stand for?
+
+- intent: query_a26
+  examples: |
+    - What are the Officers Entry Schemes in Indian Army?
+    - What are the Officers Entry Schemes available Indian Army?
+
+- intent: query_a27
+  examples: |
+    - What are the different 10+2 Level Entries in Indian Army?
+    - What are the different 10+2 Level Entries?
+
+- intent: query_a28
+  examples: |
+    - What are the different GRADUATE LEVEL ENTRIES in Indian Army?
+    - What are the different GRADUATE LEVEL ENTRIES?
+
+- intent: query_a29
+  examples: |
+    - What are the different GRADUATE LEVEL ENTRIES (Non UPSC) in Indian Army?
+    - What are the different GRADUATE LEVEL ENTRIES for Non UPSC in Indian Army?
+
+- intent: query_a30
+  examples: |
+    - What are the different avenues for women in Indian Army?
+    - What are the different avenues available for women in Indian Army?
+
+- intent: query_a31
+  examples: |
+    - What is the age criteria for NDA Entry ?
+    - What is the age needed for NDA Entry ?
+
+- intent: query_a32
+  examples: |
+    - What is the qualification for NDA Entry ?
+    - What is the qualification needed for NDA Entry ?
+
+- intent: query_a33
+  examples: |
+    - What is the duration of training for NDA?
+    - What is the time duration of training for NDA?
+
+- intent: query_a34
+  examples: |
+    - What is the age criteria for 10+2 TECHNICAL ENTRY SCHEME (TES)?
+    - What is the age criteria for 10+2 in TECHNICAL ENTRY SCHEME (TES)?
+
+- intent: query_35
+  examples: |
+    - What is the qualification for 10+2 TECHNICAL ENTRY SCHEME (TES)?
+    - What is the qualification for 10+2 in TECHNICAL ENTRY SCHEME (TES)?
+
+- intent: query_a36
+  examples: |
+    - What is the duration of training for 10+2 TECHNICAL ENTRY SCHEME (TES)?
+    - What is the duration of training for 10+2 in TECHNICAL ENTRY SCHEME (TES)?
+
+- intent: query_a37
+  examples: |
+    - Where are the various CTWs located ?
+    - Where are the various CTWs located in ?
+
+- intent: query_a38
+  examples: |
+    - What is the age criteria for IMA (Direct Entry)?
+    - What is the age needed for IMA (Direct Entry)?
+
+- intent: query_a39
+  examples: |
+    - What is the qualification for IMA (Direct Entry)?
+    - What is the qualification for IMA in Direct Entry?
+
+- intent: query_a40
+  examples: |
+    - What is the duration of training for IMA (Direct Entry)?
+    - What is the duration of training for IMA in Direct Entry?
+
+- intent: query_a41
+  examples: |
+    - What is the age criteria for SSC (JAG) -NON UPSC Entry ?
+    - What is the age criteria for SSC (JAG) for NON UPSC Entry ?
+
+- intent: query_a42
+  examples: |
+    - What is the qualification for SSC (JAG) -NON UPSC Entry?
+    - What is the qualification for SSC (JAG) for NON UPSC Entry
+
+- intent: query_a43
+  examples: |
+    - What is the duration of training for SSC (JAG) -NON UPSC Entry?
+    - What is the duration of training for SSC (JAG) for NON UPSC Entry?
+
+- intent: query_a44
+  examples: |
+    - What is the age criteria for SC (NCC SPL) -NON UPSC Entry ?
+    - What is the age criteria for SC (NCC SPL) for NON UPSC Entry ?
+
+- intent: query_a45
+  examples: |
+    - Can I join Women Entry Scheme?
+    - Can Women Entry Scheme?
+
+- intent: query_31
+  examples: |
+    - What are all the types of leave that are granted?
+    - What kinds of leave are granted?
+
+- intent: query_32
+  examples: |
+    - What is ARMAAN?
+    - What is the fullform of ARMAAN?
+    - What is the ARMAAN app?
+    - What does ARMAAN stand for?
+
+- intent: query_33
+  examples: |
+    - What is the max limit of preparatory leave?
+    - What is the maximum duration of preparatory leave?
+    - How long can a preparatory leave last at max?
+
+- intent: query_34
+  examples: |
+    - What is TR-73?
+    - What is TR form 73?
+
+- intent: query_35
+  examples: |
+    - Can I avail leave before/after course or TD?
+    - Can I avail leave after course or TD?
+    - Can I avail leave before course or TD?
+    - Will leave be available before/after couse or TD?
+    - Will leave be available before couse or TD?
+    - Will leave be available after couse or TD?
+
+- intent: query_36
+  examples: |
+    - What can I get in lieu of atta?
+    - What can I get instead of atta?
+    - What can I get in place of atta?
+
+- intent: query_37
+  examples: |
+    - What can I get in lieu of rice?
+    - What can I get instead of rice?
+    - WHat can I get in place of rice?
+
+- intent: query_38
+  examples: |
+    - What is the scale of ration?
+    - What is the scale for ration?
+
+
+- intent: query_39
+  examples: |
+    - What are ration scales?
+    - What are the ration scales?
+
+- intent: query_40
+  examples: |
+    - Scale of ration for PBOR?
+    - What Scale do we use for ration of PBOR?
+
+- intent: query_41
+  examples: |
+    - What is AFPP fund?
+    - What is AFPP?
+    - What is the AFPP fund?
+    - WHat is the fullform of AFPP?
+    - What does AFPP stand for?
+
+- intent: query_42
+  examples: |
+    - What is the HBA for purchase/construction of dwelling units for officers?
+    - How much HBA can an officer avail for the purchase/construction of dewlling units?
+    - What is the House building advance for purchase/construction of dwelling units for officers?
+    - How much House building advance can an officer avail for the purchase/construction of dewlling units?
+    - What is the HBA for purchase/construction of residential units for officers?
+    - How much HBA can an officer avail for the purchase/construction of residential units?
+    - What is the House building advance for purchase/construction of residential units for officers?
+    - How much House building advance can an officer avail for the purchase/construction of residential units?
+
+
+- intent: query_43
+  examples: |
+    - HAMRAZ?
+    - What is HAMRAZ?
+    - What is the HAMARZ app?
+
+- intent: query_44
+  examples: |
+    - What is service voter web?
+    - What is meant by service voter web?
+
+- intent: query_45
+  examples: |
+    - What is third cader review?
+    - What is meant by third cader review?
+
+- intent: query_46
+  examples: |
+    - What is the revised policy on compassionate grounds or choice posting?
+    - What is the revised policy on choice posting?
+    - What is the new policy on choice posting?
+
+- intent: query_47
+  examples: |
+    - What is the review of HR issue of the corps?
+    - What was the review of HR issue of the corps about?
+
+- intent: query_48
+  examples: |
+    - What are AGI welfare schemes on Social Security Deposit or SSD?
+    - What are AGI welfare schemes on Social Security Deposit?
+    - What are AGI welfare schemes on SSD?
+
+- intent: query_49
+  examples: |
+    - What is the time for submission of pension documents by units to record office?
+    - How early should the units submit the pension doucments to the record office?
+
+- intent: query_50
+  examples: |
+    - What is the scale of LPG cylinder?
+    - What scale do we use for LPG cylinder?
+
+- intent: query_51
+  examples: |
+    - What is the scale of rice?
+    - What is the scale for rice?
+
+- intent: query_52
+  examples: |
+    - What is the scale of potato?
+    - What scale do we use for potato?
+
+- intent: query_53
+  examples: |
+    - What is the scale of onion?
+    - What scale do we use for onion?
+
+- intent: query_54
+  examples: |
+    - What is the scale of vegetable?
+    - What scale do we use for vegetables?
+
+- intent: query_55
+  examples: |
+    - What is the scale of meat?
+    - What scale do we use for meat?
+
+- intent: query_56
+  examples: |
+    - What is the scale of chicken?
+    - What scale do we use for chicken?
+
+- intent: query_57
+  examples: |
+    - What is the scale of Nutramul?
+    - What scale do we use for Nutramul?
+
+- intent: query_58
+  examples: |
+    - What is the scale of tea?
+    - What scale do we use for tea?
+
+- intent: query_59
+  examples: |
+    - What is the scale of Coffee?
+    - What scale do we use for Coffee?
+
+#- intent: query_60
+#  examples:
+#    - What is the scale used for auth of R oil?
+#    - What is the scale of auth used for R oil?
+
+- intent: query_b21
+  examples: |
+    - What is the qualification for SC (NCC SPL) -NON UPSC Entry?
+    - What is the non UPSC entry qualification for SC (NCC SPL)?
+
+- intent: query_b22
+  examples: |
+    - What is the duration of training for SC (NCC SPL) -NON UPSC Entry?
+    - What is the non IPSC entry training duration for SC (NCC SPL)?
+    - How long is the training period for SC (NCC SPL) - NON UPSC entry?
+
+- intent: query_b23
+  examples: |
+    - What is the age criteria for UES Entry ?
+    - What are age limits for UES entry?
+    - What age groups are eligible for UES entry?
+
+- intent: query_b24
+  examples: |
+    - What is the qualification for UES Entry?
+    - What are the required qualifications for UES entry?
+
+- intent: query_bb24
+  examples: |
+    - What is the qualification for National Law College?
+
+
+- intent: query_b25
+  examples: |
+    - What is the duration of training for UES Entry?
+    - How long is the training period for UES entry?
+    - UES entry training duration?
+
+- intent: query_b26
+  examples: |
+    - What is the age criteria for TGC Entry ?
+    - What are age limits for TGC entry?
+    - What age groups are eligible for TGC entry?
+
+
+- intent: query_b27
+  examples: |
+    - What is the qualification for TGC Entry?
+    - What are the required qualifications for TGC entry?
+
+- intent: query_b28
+  examples: |
+    - What is the duration of training for TGC Entry?
+    - How long is the training period for TGC entry?
+    - TGC entry training duration?
+
+- intent: query_b29
+  examples: |
+    - What is the age criteria for SSC(Tech) Entry ?
+    - What are the age limits for SSC(Tech) entry?
+    - What age groups are eligible for SSC(Tech) entry?
+
+- intent: query_b30
+  examples: |
+    - What is the qualification for SSC(Tech) Entry?
+    - What are the required qualifications for SSC(Tech) entry?
+
+- intent: query_b31
+  examples: |
+    - What is the duration of training for SSC(Tech) Entry?
+    - How long is the training period for SSC(Tech) entry?
+    - SSC(Tech) entry training duration?
+
+- intent: query_b32
+  examples: |
+    - What is the age criteria for AEC (MEN) Entry ?
+    - What are the age limits for AEC (MEN) entry?
+    - What age groups are eligible for AEC (MEN) entry?
+
+- intent: query_b33
+  examples: |
+    - What is the qualification for AEC (MEN)  Entry?
+    - What are the required qualifications for AEC (MEN) entry?
+
+- intent: query_b34
+  examples: |
+    - What is the duration of training for AEC (MEN) Entry?
+    - How long is the training period for AEC (MEN) entry?
+    - AEC (MEN) entry training duration?
+
+- intent: query_b35
+  examples: |
+    - What is the age criteria for SSC(NT) Entry ?
+    - What are the age limits for SSC(NT) entry?
+    - What age groups are eligible for SSC(NT) entry?
+
+- intent: query_b36
+  examples: |
+    - What is the qualification for SSC(NT) Entry?
+    - What are the required qualifications for SSC(NT) entry?
+
+- intent: query_b37
+  examples: |
+    - What is the duration of training for SSC(NT) Entry?
+    - How long is the training period for SSC(NT) entry?
+    - SSC(NT) entry training duration?
+
+- intent: query_b38
+  examples: |
+    - What is the website for more information on entry into Indian Army ?
+    - Where can i get more information on entry into the Indian Army?
+    - Which website provides more information on entry into Indian Armt?
+
+- intent: query_b39
+  examples: |
+    - When are SSB conducted for Entries?
+    - When do the SSBs take place for entries?
+
+
+- intent: query_b40
+  examples: |
+    - What is the age criteria for ACC Service Entry ?
+    - What are the age limits for ACC Service entry?
+    - What age groups are eligible for ACC Service entry?
+
+- intent: query_61
+  examples: |
+    - What is the scale of matchbox?
+
+- intent: query_62
+  examples: |
+    - What is the scale of auth of salt?
+
+- intent: query_63
+  examples: |
+    - What is the scale of auth of dal?
+
+- intent: query_64
+  examples: |
+    - What is leave encashment limit?
+
+- intent: query_65
+  examples: |
+    - What is LRA?
+    - What is leave ration allowance?
+    - What is LRA and its rate?
+    - What is leave ration allowance and its rate?
+
+- intent: query_66
+  examples: |
+    - How much is condiment allowance?
+
+- intent: query_67
+  examples: |
+    - How much condiment is authorized to each individual?
+
+- intent: query_68
+  examples: |
+    - What is NRA ?
+    - What is the full form of NRA?
+    - What does NRA stands for?
+
+- intent: query_69
+  examples: |
+    - What is the scale of Atta?
+
+- intent: query_70
+  examples: |
+    - What is the scale of milk for non veg?
+    - What is the scale of milk for non vegetarian?
+
+- intent: query_71
+  examples: |
+    - What is the scale of milk for pure veg?
+    - What is the scale of milk for pure vegetarian?
+
+- intent: query_72
+  examples: |
+    - What is the scale of egg for veg and non veg?
+    - What is the scale of egg for vegetarian and non vegetarian?
+
+- intent: query_73
+  examples: |
+    - What is the scale of egg for egg eater?
+
+- intent: query_74
+  examples: |
+    - What is the scale of fruits?
+
+- intent: query_75
+  examples: |
+    - How is demand of supply items made?
+
+- intent: query_76
+  examples: |
+    - Which is the document used for making demands?
+    - Which document is used for making demands ?
+
+- intent: query_77
+  examples: |
+    - What is to be ensured before fresh is taken from depot?
+
+- intent: query_78
+  examples: |
+    - How is ration inspection carried out?
+    - What is the procedure of ration inspection?
+
+- intent: query_79
+  examples: |
+    - What is the total Encashment of leave?
+
+- intent: query_80
+  examples: |
+    - What is recall from Leave?
+
+- intent: query_81
+  examples: |
+    - How the leave encashment allowance calculated?
+
+- intent: query_82
+  examples: |
+    - What is the rule for preffixing and suffixing to leave?
+
+- intent: query_83
+  examples: |
+    - What is the rule for date of commencement and termination of leave?
+
+- intent: query_84
+  examples: |
+    - What is deprivation of the privilege of leave?
+
+- intent: query_85
+  examples: |
+    - Rule of Special Casual Leave?
+
+- intent: query_86
+  examples: |
+    - What is furlough leave?
+
+- intent: query_87
+  examples: |
+    - What is LTC?
+
+- intent: query_88
+  examples: |
+    - What is advance of annual leave?
+
+- intent: query_41b
+  examples: |
+    - What is the qualification for ACC Service Entry?
+
+- intent: query_42b
+  examples: |
+    - What is the duration of training for ACC Service Entry?
+
+- intent: query_43b
+  examples: |
+    - What is the age criteria for PC(SL) Service Entry ?
+
+- intent: query_44b
+  examples: |
+    - What is the qualification for PC(SL) Entry?
+
+- intent: query_45b
+  examples: |
+    - What is the duration of training for PC(SL) Entry?
+
+- intent: query_46b
+  examples: |
+    - What is the age criteria for SCO Service Entry ?
+
+#- intent: query_47b
+#  examples: |
+#    - What is the qualification for SCO Entry?
+
+- intent: query_48b
+  examples: |
+    - What is the duration of training for SCO Entry?
+
+- intent: query_49b
+  examples: |
+    - Is a married person eligible for entry as Officer?
+
+- intent: query_50b
+  examples: |
+    - Whom to contact for recruitment related queries ?
+
+- intent: query_51b
+  examples: |
+    - Whom to contact for SSB related queries ?
+
+- intent: query_52b
+  examples: |
+    - When is notification published for NDA Entry ?
+
+- intent: query_53b
+  examples: |
+    - When is notification published for 10 + 2 Technical Entry Scheme?
+
+- intent: query_54b
+  examples: |
+    - How to apply for NDA Entry ?
+
+- intent: query_55b
+  examples: |
+    - How to apply for 10 + 2 Technical Entry Scheme ?
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
